@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="80">
+ <properties>
+  <property name="playerStartX" type="int" value="96"/>
+  <property name="playerStartY" type="int" value="96"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain" tilewidth="64" tileheight="64" tilecount="160" columns="10">
+  <image source="assets/terrainTiles_default.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="161" name="Sprites" tilewidth="70" tileheight="64" tilecount="36" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="16" height="52" source="../kenney_topdownTanksRedux/PNG/Default size/fenceYellow.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../kenney_topdownTanksRedux/PNG/Default size/treeGreen_large.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="12.0202" y="12.7957" width="39.1625" height="39.1625">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <image width="28" height="20" source="../kenney_topdownTanksRedux/PNG/Default size/barrelBlack_side.png"/>
+  </tile>
+  <tile id="3">
+   <image width="24" height="24" source="../kenney_topdownTanksRedux/PNG/Default size/barrelBlack_top.png"/>
+  </tile>
+  <tile id="4">
+   <image width="28" height="20" source="../kenney_topdownTanksRedux/PNG/Default size/barrelGreen_side.png"/>
+  </tile>
+  <tile id="5">
+   <image width="24" height="24" source="../kenney_topdownTanksRedux/PNG/Default size/barrelGreen_top.png"/>
+  </tile>
+  <tile id="6">
+   <image width="28" height="20" source="../kenney_topdownTanksRedux/PNG/Default size/barrelRed_side.png"/>
+  </tile>
+  <tile id="7">
+   <image width="24" height="24" source="../kenney_topdownTanksRedux/PNG/Default size/barrelRed_top.png"/>
+  </tile>
+  <tile id="8">
+   <image width="28" height="20" source="../kenney_topdownTanksRedux/PNG/Default size/barrelRust_side.png"/>
+  </tile>
+  <tile id="9">
+   <image width="24" height="24" source="../kenney_topdownTanksRedux/PNG/Default size/barrelRust_top.png"/>
+  </tile>
+  <tile id="10">
+   <image width="28" height="28" source="../kenney_topdownTanksRedux/PNG/Default size/barricadeMetal.png"/>
+  </tile>
+  <tile id="11">
+   <image width="28" height="28" source="../kenney_topdownTanksRedux/PNG/Default size/barricadeWood.png"/>
+  </tile>
+  <tile id="12">
+   <image width="28" height="28" source="../kenney_topdownTanksRedux/PNG/Default size/crateMetal_side.png"/>
+  </tile>
+  <tile id="13">
+   <image width="28" height="28" source="../kenney_topdownTanksRedux/PNG/Default size/crateMetal.png"/>
+  </tile>
+  <tile id="14">
+   <image width="28" height="28" source="../kenney_topdownTanksRedux/PNG/Default size/crateWood_side.png"/>
+  </tile>
+  <tile id="15">
+   <image width="28" height="28" source="../kenney_topdownTanksRedux/PNG/Default size/crateWood.png"/>
+  </tile>
+  <tile id="16">
+   <image width="16" height="48" source="../kenney_topdownTanksRedux/PNG/Default size/fenceRed.png"/>
+  </tile>
+  <tile id="17">
+   <image width="50" height="50" source="../kenney_topdownTanksRedux/PNG/Default size/oilSpill_large.png"/>
+  </tile>
+  <tile id="18">
+   <image width="14" height="14" source="../kenney_topdownTanksRedux/PNG/Default size/oilSpill_small.png"/>
+  </tile>
+  <tile id="19">
+   <image width="28" height="42" source="../kenney_topdownTanksRedux/PNG/Default size/sandbagBeige_open.png"/>
+  </tile>
+  <tile id="20">
+   <image width="22" height="32" source="../kenney_topdownTanksRedux/PNG/Default size/sandbagBeige.png"/>
+  </tile>
+  <tile id="21">
+   <image width="28" height="42" source="../kenney_topdownTanksRedux/PNG/Default size/sandbagBrown_open.png"/>
+  </tile>
+  <tile id="22">
+   <image width="22" height="32" source="../kenney_topdownTanksRedux/PNG/Default size/sandbagBrown.png"/>
+  </tile>
+  <tile id="23">
+   <image width="52" height="41" source="../kenney_topdownTanksRedux/PNG/Default size/tracksDouble.png"/>
+  </tile>
+  <tile id="24">
+   <image width="52" height="41" source="../kenney_topdownTanksRedux/PNG/Default size/tracksLarge.png"/>
+  </tile>
+  <tile id="25">
+   <image width="52" height="37" source="../kenney_topdownTanksRedux/PNG/Default size/tracksSmall.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="64" source="../kenney_topdownTanksRedux/PNG/Default size/treeBrown_large.png"/>
+  </tile>
+  <tile id="27">
+   <image width="10" height="8" source="../kenney_topdownTanksRedux/PNG/Default size/treeBrown_leaf.png"/>
+  </tile>
+  <tile id="28">
+   <image width="36" height="36" source="../kenney_topdownTanksRedux/PNG/Default size/treeBrown_small.png"/>
+  </tile>
+  <tile id="29">
+   <image width="22" height="26" source="../kenney_topdownTanksRedux/PNG/Default size/treeBrown_twigs.png"/>
+  </tile>
+  <tile id="30">
+   <image width="10" height="8" source="../kenney_topdownTanksRedux/PNG/Default size/treeGreen_leaf.png"/>
+  </tile>
+  <tile id="31">
+   <image width="36" height="36" source="../kenney_topdownTanksRedux/PNG/Default size/treeGreen_small.png"/>
+  </tile>
+  <tile id="32">
+   <image width="22" height="26" source="../kenney_topdownTanksRedux/PNG/Default size/treeGreen_twigs.png"/>
+  </tile>
+  <tile id="33">
+   <image width="48" height="44" source="../kenney_topdownTanksRedux/PNG/Default size/wireCrooked.png"/>
+  </tile>
+  <tile id="34">
+   <image width="70" height="17" source="../kenney_topdownTanksRedux/PNG/Default size/wireStraight.png"/>
+  </tile>
+  <tile id="36">
+   <image width="40" height="38" source="../kenney_topdownTanksRedux/PNG/Default size/tankBody_red_outline.png"/>
+  </tile>
+ </tileset>
+ <layer id="3" name="Background" width="16" height="16">
+  <data encoding="csv">
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41
+</data>
+ </layer>
+ <layer id="4" name="Foreground" width="16" height="16">
+  <data encoding="csv">
+0,84,85,85,85,85,85,85,85,85,85,85,85,85,85,87,
+0,94,79,7,3,3,3,7,3,3,15,1,54,55,56,107,
+0,94,1,2,1,1,1,2,1,1,16,7,67,65,66,97,
+0,94,1,2,1,1,1,2,1,1,1,2,74,75,76,97,
+0,94,1,2,1,1,1,4,3,3,15,2,1,1,1,107,
+0,94,1,2,1,1,1,2,1,1,16,5,1,95,115,117,
+0,94,1,2,1,1,1,2,1,1,1,2,1,97,0,0,
+0,94,1,2,1,1,1,2,54,55,56,2,1,107,0,0,
+86,106,1,16,7,3,3,6,67,65,66,2,1,105,85,86,
+1,1,1,1,2,1,1,1,74,57,76,2,1,54,55,56,
+1,1,1,1,2,1,1,1,1,2,1,2,1,64,65,66,
+1,1,1,1,2,1,1,1,1,2,1,2,1,74,57,76,
+3,15,1,1,2,1,54,55,56,2,1,2,14,3,13,3,
+1,16,3,3,6,3,67,65,68,6,3,6,17,1,78,1,
+96,1,1,1,1,1,74,75,76,1,1,1,1,1,95,115,
+114,116,115,115,116,115,115,116,115,115,116,115,116,116,117,0
+</data>
+ </layer>
+ <layer id="6" name="TiledObjects" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,128,89,129,0,
+0,0,0,0,0,0,0,0,0,0,0,0,109,0,90,0,
+0,0,0,0,0,0,0,0,0,0,0,0,138,89,139,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,128,89,129,0,0,0,0,0,0,0,
+0,0,0,0,0,0,109,0,109,0,0,0,0,0,0,0,
+0,0,0,0,0,0,138,89,139,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects"/>
+ <objectgroup id="5" name="Collision">
+  <object id="60" x="776.376" y="89.1171">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+   <polygon points="0,0 -0.75523,138.962 14.3494,160.864 162.374,159.354 178.234,142.738 177.479,-3.02092 160.109,-18.1255 17.3703,-18.8807"/>
+  </object>
+  <object id="68" x="880" y="370" width="120" height="158">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="69" x="1000" y="0" width="24" height="528">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="71" x="96" y="0" width="904" height="24"/>
+  <object id="72" x="0" y="940" width="24" height="108"/>
+  <object id="73" x="24" y="1000" width="918" height="48"/>
+  <object id="74" x="942" y="940" width="106" height="108"/>
+  <object id="76" x="389.61" y="793.575">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+   <polygon points="0,0 -0.75523,138.962 14.3494,160.864 162.374,159.354 178.234,142.738 177.479,-3.02092 160.109,-18.1255 17.3703,-18.8807"/>
+  </object>
+  <object id="79" x="0" y="0" width="96" height="528">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,354 @@
+{ "height":16,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41],
+         "height":16,
+         "id":3,
+         "name":"Background",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 87, 0, 0, 94, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 0, 94, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 85, 106, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 80, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 80, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 115, 96, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 0, 94, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 0, 94, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 97, 0, 0, 114, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":16,
+         "id":4,
+         "name":"Foreground",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":16,
+         "id":6,
+         "name":"TiledObjects",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"Collision",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":7,
+ "nextobjectid":80,
+ "orientation":"orthogonal",
+ "properties":
+    {
+     "playerStartX":96,
+     "playerStartY":96
+    },
+ "propertytypes":
+    {
+     "playerStartX":"int",
+     "playerStartY":"int"
+    },
+ "renderorder":"right-down",
+ "tiledversion":"1.2.3",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "columns":10,
+         "firstgid":1,
+         "image":"..\/terrainTiles_default.png",
+         "imageheight":1024,
+         "imagewidth":640,
+         "margin":0,
+         "name":"Terrain",
+         "spacing":0,
+         "tilecount":160,
+         "tileheight":64,
+         "tilewidth":64
+        }, 
+        {
+         "columns":0,
+         "firstgid":161,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"Sprites",
+         "spacing":0,
+         "tilecount":36,
+         "tileheight":64,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/fenceYellow.png",
+                 "imageheight":52,
+                 "imagewidth":16
+                },
+             "1":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeGreen_large.png",
+                 "imageheight":64,
+                 "imagewidth":64,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "name":"",
+                     "objects":[
+                            {
+                             "ellipse":true,
+                             "height":39.1625,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":39.1625,
+                             "x":12.0202,
+                             "y":12.7957
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    }
+                },
+             "10":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barricadeMetal.png",
+                 "imageheight":28,
+                 "imagewidth":28
+                },
+             "11":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barricadeWood.png",
+                 "imageheight":28,
+                 "imagewidth":28
+                },
+             "12":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/crateMetal_side.png",
+                 "imageheight":28,
+                 "imagewidth":28
+                },
+             "13":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/crateMetal.png",
+                 "imageheight":28,
+                 "imagewidth":28
+                },
+             "14":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/crateWood_side.png",
+                 "imageheight":28,
+                 "imagewidth":28
+                },
+             "15":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/crateWood.png",
+                 "imageheight":28,
+                 "imagewidth":28
+                },
+             "16":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/fenceRed.png",
+                 "imageheight":48,
+                 "imagewidth":16
+                },
+             "17":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/oilSpill_large.png",
+                 "imageheight":50,
+                 "imagewidth":50
+                },
+             "18":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/oilSpill_small.png",
+                 "imageheight":14,
+                 "imagewidth":14
+                },
+             "19":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/sandbagBeige_open.png",
+                 "imageheight":42,
+                 "imagewidth":28
+                },
+             "2":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelBlack_side.png",
+                 "imageheight":20,
+                 "imagewidth":28
+                },
+             "20":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/sandbagBeige.png",
+                 "imageheight":32,
+                 "imagewidth":22
+                },
+             "21":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/sandbagBrown_open.png",
+                 "imageheight":42,
+                 "imagewidth":28
+                },
+             "22":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/sandbagBrown.png",
+                 "imageheight":32,
+                 "imagewidth":22
+                },
+             "23":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/tracksDouble.png",
+                 "imageheight":41,
+                 "imagewidth":52
+                },
+             "24":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/tracksLarge.png",
+                 "imageheight":41,
+                 "imagewidth":52
+                },
+             "25":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/tracksSmall.png",
+                 "imageheight":37,
+                 "imagewidth":52
+                },
+             "26":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeBrown_large.png",
+                 "imageheight":64,
+                 "imagewidth":64
+                },
+             "27":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeBrown_leaf.png",
+                 "imageheight":8,
+                 "imagewidth":10
+                },
+             "28":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeBrown_small.png",
+                 "imageheight":36,
+                 "imagewidth":36
+                },
+             "29":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeBrown_twigs.png",
+                 "imageheight":26,
+                 "imagewidth":22
+                },
+             "3":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelBlack_top.png",
+                 "imageheight":24,
+                 "imagewidth":24
+                },
+             "30":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeGreen_leaf.png",
+                 "imageheight":8,
+                 "imagewidth":10
+                },
+             "31":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeGreen_small.png",
+                 "imageheight":36,
+                 "imagewidth":36
+                },
+             "32":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/treeGreen_twigs.png",
+                 "imageheight":26,
+                 "imagewidth":22
+                },
+             "33":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/wireCrooked.png",
+                 "imageheight":44,
+                 "imagewidth":48
+                },
+             "34":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/wireStraight.png",
+                 "imageheight":17,
+                 "imagewidth":70
+                },
+             "36":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/tankBody_red_outline.png",
+                 "imageheight":38,
+                 "imagewidth":40
+                },
+             "4":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelGreen_side.png",
+                 "imageheight":20,
+                 "imagewidth":28
+                },
+             "5":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelGreen_top.png",
+                 "imageheight":24,
+                 "imagewidth":24
+                },
+             "6":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelRed_side.png",
+                 "imageheight":20,
+                 "imagewidth":28
+                },
+             "7":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelRed_top.png",
+                 "imageheight":24,
+                 "imagewidth":24
+                },
+             "8":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelRust_side.png",
+                 "imageheight":20,
+                 "imagewidth":28
+                },
+             "9":
+                {
+                 "image":"..\/..\/..\/kenney_topdownTanksRedux\/PNG\/Default size\/barrelRust_top.png",
+                 "imageheight":24,
+                 "imagewidth":24
+                }
+            },
+         "tilewidth":70
+        }],
+ "tilewidth":64,
+ "type":"map",
+ "version":1.1,
+ "width":16
+}

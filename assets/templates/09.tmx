@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="130">
+ <properties>
+  <property name="playerStartX" type="int" value="96"/>
+  <property name="playerStartY" type="int" value="96"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain" tilewidth="64" tileheight="64" tilecount="160" columns="10">
+  <image source="../terrainTiles_default.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="161" source="Sprites.tsx"/>
+ <layer id="3" name="Background" width="16" height="16">
+  <data encoding="csv">
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41
+</data>
+ </layer>
+ <layer id="4" name="Foreground" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,84,85,85,85,85,85,85,85,85,85,87,0,0,
+0,0,84,106,1,1,1,1,1,1,1,1,1,105,87,0,
+0,84,106,14,3,3,3,3,3,15,1,1,1,1,97,0,
+0,94,1,2,1,1,1,1,1,2,1,1,1,1,105,85,
+0,94,1,78,1,1,1,1,1,2,1,1,54,55,56,11,
+0,94,1,1,1,1,1,1,1,2,1,1,64,65,66,79,
+0,94,1,1,1,1,1,1,1,2,1,1,74,57,76,11,
+0,94,1,1,79,3,3,15,1,2,1,1,1,2,1,11,
+0,94,1,1,1,1,1,16,3,13,3,3,7,6,3,3,
+0,94,1,1,1,1,1,1,1,2,1,1,2,1,1,11,
+0,94,1,1,1,1,1,1,1,2,1,54,58,56,95,115,
+0,114,96,1,1,1,1,1,1,4,3,67,65,66,97,0,
+0,0,114,96,1,1,77,1,1,2,1,74,75,76,97,0,
+0,0,0,114,96,1,2,1,1,2,1,95,115,115,117,0,
+0,0,0,0,94,11,2,11,11,2,11,97,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="TiledObjects" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="86" name="Tree" gid="162" x="617.534" y="679.841" width="64" height="64" rotation="13.2096"/>
+  <object id="87" name="Tank" gid="197" x="586" y="262" width="40" height="38">
+   <properties>
+    <property name="health" type="int" value="3"/>
+    <property name="path" value="09-01,09-02,09-03,09-04,09-05,09-06,09-07,09-08,09-09"/>
+    <property name="pathtype" value="PINGPONG"/>
+    <property name="structureFrame" value="tankBody_red_outline.png"/>
+   </properties>
+  </object>
+  <object id="88" name="09-01" gid="201" x="256" y="576" width="64" height="64"/>
+  <object id="89" name="09-02" gid="201" x="432" y="576" width="64" height="64"/>
+  <object id="90" name="09-03" gid="201" x="464" y="640" width="64" height="64"/>
+  <object id="91" name="09-04" gid="201" x="576" y="640" width="64" height="64"/>
+  <object id="92" name="09-05" gid="201" x="576" y="288" width="64" height="64"/>
+  <object id="93" name="09-06" gid="201" x="544" y="256" width="64" height="64"/>
+  <object id="94" name="09-07" gid="201" x="224" y="256" width="64" height="64"/>
+  <object id="95" name="09-08" gid="201" x="192" y="288" width="64" height="64"/>
+  <object id="96" name="09-09" gid="201" x="192" y="384" width="64" height="64"/>
+  <object id="97" name="Tower" gid="209" x="768" y="832" width="64" height="64">
+   <properties>
+    <property name="bulletName" value="bulletGreen1_outline.png"/>
+    <property name="health" type="int" value="3"/>
+    <property name="shotType" value="DOUBLE"/>
+    <property name="turretName" value="tower_turret_02"/>
+   </properties>
+  </object>
+  <object id="99" name="Tower" gid="209" x="832" y="448" width="64" height="64">
+   <properties>
+    <property name="bulletName" value="bulletGreen1_outline.png"/>
+    <property name="health" type="int" value="3"/>
+    <property name="shotType" value="SINGLE"/>
+    <property name="turretName" value="tower_turret_01"/>
+   </properties>
+  </object>
+  <object id="103" gid="181" x="783.394" y="514.913" width="22" height="32" rotation="-47.5881"/>
+  <object id="104" gid="181" x="758.156" y="482.803" width="22" height="32" rotation="-20.0622"/>
+  <object id="105" gid="181" x="831" y="524" width="22" height="32" rotation="-83.9359"/>
+  <object id="106" gid="167" x="572.643" y="787.642" width="28" height="20" rotation="-159.137"/>
+  <object id="107" gid="168" x="512" y="800" width="24" height="24"/>
+  <object id="108" gid="168" x="528" y="777" width="24" height="24"/>
+  <object id="111" name="Repair" gid="199" x="384" y="768" width="64" height="64">
+   <properties>
+    <property name="amount" type="int" value="2"/>
+    <property name="type" value="REPAIR"/>
+   </properties>
+  </object>
+  <object id="114" gid="162" x="441.659" y="407.356" width="64" height="64" rotation="-15.4185"/>
+  <object id="115" gid="192" x="384.293" y="352.807" width="36" height="36" rotation="9.43239"/>
+  <object id="116" gid="192" x="373.925" y="404.41" width="36" height="36" rotation="-16.6833"/>
+  <object id="117" gid="192" x="400" y="416" width="36" height="36" rotation="-312.354"/>
+  <object id="121" gid="161" x="198.944" y="383.183" width="16" height="52" rotation="-270"/>
+  <object id="122" gid="161" x="240" y="569" width="16" height="52"/>
+  <object id="126" name="Upgrade" gid="198" x="320" y="704" width="64" height="64">
+   <properties>
+    <property name="amount" type="int" value="1"/>
+    <property name="pickupFrame" value="crateMetal.png"/>
+    <property name="type" value="WEAPONUP"/>
+   </properties>
+  </object>
+  <object id="129" name="Upgrade" gid="198" x="384" y="704" width="64" height="64">
+   <properties>
+    <property name="amount" type="int" value="1"/>
+    <property name="pickupFrame" value="crateMetal.png"/>
+    <property name="type" value="WEAPONUP"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Collision">
+  <object id="80" x="0" y="0" width="80" height="1024">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="81" x="80" y="0" width="864" height="80">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="82" x="944" y="0" width="80" height="272">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="83" x="944" y="752" width="80" height="272">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="84" x="752" y="944" width="192" height="80">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="85" x="80" y="944" width="192" height="80">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="102" x="80" y="784">
+   <polygon points="0,0 176,160 0,160"/>
+  </object>
+  <object id="109" x="744" y="457">
+   <polygon points="0,0 13,39 47,63 87,67 88,44 55,40 37,19 26,-13"/>
+  </object>
+  <object id="110" x="535" y="748">
+   <polygon points="0,0 -27,43 -9,55 30,58 38,38"/>
+  </object>
+  <object id="113" x="640" y="640" width="32" height="32"/>
+  <object id="118" x="400" y="336">
+   <polygon points="2,-2 -18,46 27,82 73,43 73,16"/>
+  </object>
+  <object id="119" x="80" y="240">
+   <polygon points="0,0 176,-160 0,-160"/>
+  </object>
+  <object id="120" x="880" y="80" width="64" height="64"/>
+  <object id="123" x="192" y="384" width="64" height="16">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="124" x="240" y="512" width="16" height="64">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
